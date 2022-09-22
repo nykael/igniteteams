@@ -7,10 +7,10 @@ type Props = {
 }
 
 export const Container = styled.TouchableOpacity<Props>`
-    height: 100%;
+    flex-grow:1;
 
-    min-height: 7%;
-    max-height: 7%;
+    min-height: 56px;
+    max-height: 56px;
 
     background-color: ${({theme, type}) => type === 'PRIMARY' ? 
     theme.COLORS.GREEN_700 : theme.COLORS.RED_DARK
@@ -20,6 +20,8 @@ export const Container = styled.TouchableOpacity<Props>`
 
     justify-content: center;
     align-items: center;
+
+    
 `;
 
 export const Title = styled.Text`

@@ -16,7 +16,7 @@ export const Logo = styled.Image`
 `
 
 export const BackButton = styled.TouchableOpacity`
-    width: 100%;
+    flex-grow: 1;
     height: 100%;
 `;
 
